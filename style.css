@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+}
+
+body {
+    background-image: linear-gradient(to right,rgb(99, 189, 99),skyblue,rgba(165, 42, 42, 0.456),red );
+    display: flex;
+    justify-content: center;
+align-items: center;
+   margin-top: 5% ;
+
+}
+
+img {
+    width: 180px;
+    height: 170px;
+    border-radius: 16px;
+    padding: 10px 10px;
+}
+
+.card {
+    background-color: rgb(255, 255, 255);
+    width: 240px;
+    height: 320px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    transition: .7s;
+
+}
+
+.card h1 {
+    font-size: 15px;
+    font-weight:550;
+}
+
+.inner #subtitle {
+font-size: 8px;
+margin-top: 6%;
+}
+
+.inner .price{
+    font-size: 12px;
+    font-weight: 700;
+    line-height:1;
+}
+
+.inner .btn1cart{
+    width: 10px;
+    height: 10px;
+    padding: 0% auto;
+    
+}
+.hero{
+    width: 530px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#btn1,#btn2{
+    width: 47%;
+    height: 40px;
+    font-size: 11px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+    color: rgb(81, 80, 80);
+    
+}
+.btnspan{
+  display: flex;
+  justify-content: space-between;
+}
+#btn2{
+    background-color: #b34bf8;
+    color: white;
+}
+#topdiv{
+    width: 74px;
+    height: 15px;
+    background-color: rgb(148, 189, 255);
+margin-right: 60%;
+border: none;
+font-size: 9.5px;
+text-align: center;
+
+}
